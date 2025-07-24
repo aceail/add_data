@@ -13,7 +13,7 @@ from openai_utils import JLK_ICH
 def main() -> None:
     """Example main routine."""
 
-    zip_path = Path("path/to/archive.zip")
+    zip_path = Path("JLK_NCCT\DCM_REQUEST_2025-07-23-05-16-58-465027_0.zip")
     extract_path = extract_zip(zip_path)
     if not extract_path:
         return

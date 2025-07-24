@@ -8,7 +8,8 @@ from typing import Optional
 from PIL import Image
 
 from report_models import ImagingReport
-
+from dotenv import load_dotenv
+load_dotenv() 
 try:  # Optional dependency
     from openai import OpenAI
 except Exception:  # pragma: no cover - openai might not be available
